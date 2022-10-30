@@ -72,7 +72,7 @@ img {
 .nav-link.studio::after,
 .nav-link.portfolio::after {
   position: absolute;
-  top: 44px;
+  top: 45px;
   left: 0px;
   content: '';
   width: 100%;
@@ -262,7 +262,6 @@ img {
 }
 .btn-subscribe:hover {
   background-color: var(--studio-btn-accent-color);
-
 }
 .btn-subscribe {
   transition: background-color var(--timing-function-cubic);
@@ -685,8 +684,6 @@ img {
 .close-icon {
   transition: fill var(--timing-function-cubic);
 
-  width: 14px;
-  height: 14px;
   fill: rgba(0, 0, 0, 1);
 }
 .btn-close:hover .close-icon {
@@ -714,15 +711,6 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
-.form-list {
-  margin-bottom: 30px;
-}
-.form-item:nth-child(4) {
-  margin-bottom: 20px;
-}
-.form-item:nth-child(-n + 3) {
-  margin-bottom: 10px;
-}
 
 .form-item-input {
   padding: 12px 0px 12px 42px;
@@ -741,6 +729,7 @@ img {
 .form-label {
   position: relative;
 
+  margin-bottom: 10px;
   display: block;
   font-size: 12px;
   line-height: 1.16;
@@ -758,7 +747,7 @@ img {
 }
 .coment {
   resize: none;
-  width: 100%;
+  height: 120px;
   padding: 15px 15px;
 }
 .form-item-input:focus {
@@ -769,6 +758,7 @@ img {
   fill: var(--accent-color);
 }
 .form-link-contract {
+  margin-left: 5px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -778,15 +768,17 @@ img {
   background-color: var(--studio-btn-accent-color);
   border-color: var(--studio-btn-accent-color);
 }
-.form-label.checkbox {
-  position: relative;
 
-  padding-left: 23px;
+.form-label.checkbox {
+  text-align: center;
+}
+.form-label.box-coment {
+  margin-bottom: 20px;
 }
 .icon-checkbox {
   position: absolute;
   top: 4px;
-  left: 0;
+  left: 30px;
   transition: background-color var(--timing-function-cubic),
     border-color var(--timing-function-cubic);
 
