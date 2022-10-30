@@ -771,6 +771,7 @@ img {
 
 .form-label.checkbox {
   text-align: center;
+  margin-bottom: 30px;
 }
 .form-label.box-coment {
   margin-bottom: 20px;
